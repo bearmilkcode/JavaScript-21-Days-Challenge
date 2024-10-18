@@ -14,9 +14,7 @@
   function countDown() {
     const dayElem = document.getElementById('target'); 
     const target = new Date(dayElem.value).getTime(); 
-    
     const now = new Date().getTime();
-    
     const newYear = new Date('Decomber 31, 2024 23:59:59').getTime();
     const unixTimeLeft = target - now;
     
