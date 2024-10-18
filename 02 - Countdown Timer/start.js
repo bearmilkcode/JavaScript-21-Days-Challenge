@@ -17,7 +17,6 @@
     const now = new Date().getTime();
     const newYear = new Date('Decomber 31, 2024 23:59:59').getTime();
     const unixTimeLeft = target - now;
-    
 
     // const dayElem = document.getElementById('days');
     // dayElem.innerText = Math.floor(unixTimeLeft / DAY) ;
